@@ -1,0 +1,84 @@
+{
+  "name": "expo-tf-starter",
+  "description": "Expo / React Native Tensorflow Starter",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josh-McFarlin/expo-tf-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Josh-McFarlin/expo-tf-starter/issues"
+  },
+  "author": {
+    "name": "Josh McFarlin",
+    "email": "josh@mcfarl.in"
+  },
+  "lint-staged": {
+    "*.@(js|ts|tsx)": [
+      "npm run lint",
+      "npm run format"
+    ]
+  },
+  "scripts": {
+    "lint": "eslint --fix --ext ts --ext tsx --ext js .",
+    "format": "prettier --write **/*.{js,ts,tsx,json}",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-navigation/bottom-tabs": "^6.0.5",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "@tensorflow/tfjs": "^3.9.0",
+    "@tensorflow/tfjs-react-native": "^0.6.0",
+    "expo": "~42.0.0",
+    "expo-app-loading": "^1.1.2",
+    "expo-asset": "~8.3.3",
+    "expo-av": "~9.2.3",
+    "expo-blur": "~9.0.3",
+    "expo-camera": "~11.2.2",
+    "expo-error-recovery": "~2.2.0",
+    "expo-file-system": "~11.1.3",
+    "expo-font": "~9.2.1",
+    "expo-gl": "~10.4.2",
+    "expo-gl-cpp": "~10.4.1",
+    "expo-image-picker": "~10.2.2",
+    "expo-random": "~11.2.0",
+    "expo-sharing": "~9.2.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-fs": "^2.18.0",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-web": "~0.13.12",
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.15.5",
+    "@expo/metro-config": "^0.1.84",
+    "@expo/webpack-config": "^0.15.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.0",
+    "typescript": "~4.0.0"
+  }
+}

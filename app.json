@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Expo TF",
+    "version": "1.0.0",
+    "slug": "expo-tf-starter",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "bundleIdentifier": "in.mcfarl.expotf",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "in.mcfarl.expotf",
+      "versionCode": 1
+    }
+  }
+}
