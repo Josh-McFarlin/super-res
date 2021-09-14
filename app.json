@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Expo TF",
+    "name": "Super Res",
     "version": "1.0.0",
-    "slug": "expo-tf-starter",
+    "slug": "super-res",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -10,11 +10,11 @@
       "backgroundColor": "#000000"
     },
     "ios": {
-      "bundleIdentifier": "in.mcfarl.expotf",
+      "bundleIdentifier": "in.mcfarl.super-res",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "in.mcfarl.expotf",
+      "package": "in.mcfarl.super-res",
       "versionCode": 1
     }
   }

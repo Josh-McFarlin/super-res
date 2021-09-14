@@ -1,4 +1,4 @@
-# Expo Tensorflow Starter
+# Super Res
 
 <p>
   <!-- iOS -->
@@ -13,7 +13,7 @@
 
 ## 👋 Intro
 
-- An Expo/React Native Starter for Tensorflow projects
+- Tensorflow Super Res app made with Expo
 
 ## 🚀 How to use
 
