@@ -3,6 +3,7 @@
   "description": "Expo / React Native Tensorflow Starter",
   "version": "0.0.1",
   "private": true,
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Josh-McFarlin/expo-tf-starter.git"
