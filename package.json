@@ -51,6 +51,7 @@
     "expo-image-picker": "~10.2.2",
     "expo-random": "~11.2.0",
     "expo-sharing": "~9.2.1",
+    "jpeg-js": "^0.4.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
